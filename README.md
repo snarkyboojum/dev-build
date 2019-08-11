@@ -1,13 +1,14 @@
 # dev-build
-Basic build requirements for any new development environment
+Basic build requirements for any new development environment. If Windows, use scoop and if OS X use homebrew as the package manager.
 
-## Windows
-Scoop, https://scoop.sh/
-Terminal, cmder
-IRC, https://raw.githubusercontent.com/lukesampson/scoop-extras/master/bucket/hexchat.json
+windows,init,https://scoop.sh/
+windows,https://raw.githubusercontent.com/lukesampson/scoop-extras/master/bucket/hexchat.json
 
-## OSX
+osx,init,https://brew.sh/
 
-Homebrew, https://brew.sh/
-Terminal, cmder
-IRC, https://raw.githubusercontent.com/lukesampson/scoop-extras/master/bucket/hexchat.json
+all,cmder
+all,python
+all,rust
+all,pip,awscli
+
+
