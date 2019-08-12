@@ -6,7 +6,6 @@ windows,https://raw.githubusercontent.com/lukesampson/scoop-extras/master/bucket
 
 osx,init,https://brew.sh/
 
-all,cmder
 all,python
 all,rust
 all,pip,awscli
